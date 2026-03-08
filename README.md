@@ -95,14 +95,6 @@ Highest hallucination rates occurred in:
 
 Factual domains such as **Health, Economics, Law, and History showed 0% hallucinations** in this sample.
 
-Example chart (generated in notebook):
-
-```
-Insert chart here: hallucination_by_category.png
-```
-
----
-
 # Error Analysis
 
 Several hallucinations occurred due to **common cultural misconceptions**.
@@ -153,26 +145,6 @@ explain why instead of giving a direct answer.
 | **Reduction** | **57.14%** |
 
 This experiment demonstrates that **prompt design significantly affects model reliability**.
-
----
-
-# Repository Structure
-
-```
-.
-├── data/
-│   └── truthfulqa_labeled.csv
-│
-├── notebook/
-│   └── analysis.ipynb
-│
-├── charts/
-│   └── hallucination_by_category.png
-│
-└── README.md
-```
-
----
 
 # Tools Used
 
